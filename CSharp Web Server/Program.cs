@@ -10,6 +10,9 @@ namespace CSharp_Web_Server
     {
         static void Main(string[] args)
         {
+            SelectInterface si = new SelectInterface();
+            si.ShowDialog();
+            Console.ReadLine();
         }
     }
 }
